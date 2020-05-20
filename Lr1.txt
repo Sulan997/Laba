@@ -1,0 +1,10 @@
+http://www.kkkm.ru/
+
+alert( "firstChild: " + document.body.firstChild )
+alert( "nextSibling: " + document.head.nextSibling )
+alert( "lastElementChild: " + document.body.lastElementChild )
+alert( "class: " + document.head.getElementsByClassName("bar") )
+alert( "id: " + document.getElementById("footer-theme") )
+alert ("Элемент внутри элемента:" + document.querySelector ("div.bar"))
+alert ("Селектор на атрибут:" + document.querySelector ('[id="footer-theme"]'))
+alert ("Псевдокласс:" + document.querySelector (':link'))
